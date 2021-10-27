@@ -1,0 +1,198 @@
+
+<?php include 'navbar.php'; ?>
+<style type="text/css">
+	
+	.outerblock
+	{
+		padding: 15px;
+	}
+	.outer
+	{
+		padding: 10px 10px;
+		/*height: 60vh;*/
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+		/*margin: 5px;*/
+	}
+
+	
+	.box
+	{
+		border: 1px solid var(--p1);
+		padding: 10px;
+		justify-content: center;
+		text-align: center;
+		/*box-shadow: 1px 2px;*/
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.box:hover
+	{
+		
+		/*box-shadow: 0px 1px #cecece;*/
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+	}
+	.box a{
+		color: var(--p2);
+		text-decoration: none;
+	}
+
+	/*Social Start*/
+	.social
+	{
+		text-decoration: none;
+	}
+	.social a{
+		text-decoration: none;
+		color: var(--p2);
+		font-family: monospace;
+		font-variant-caps: all-petite-caps;
+		font-size: 20px;
+	}
+	/*Social End*/
+</style>
+
+<body>
+	<div class="container-fluid">
+		<div class="row outerblock">
+			<div class="col-md-5 outer">
+				<div class="col-md-12 partion">
+					<img src="img/corosual2.png" class="img-fluid img-responsive">	
+				</div>
+				
+				
+			</div>
+			<div class="col-md-1">
+				
+			</div>
+
+			<div class="col-md-6 outer">
+				<div class="row justify-content-center">
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="internship.php"><span><img src="img/blinking.gif" style="height: 2.8vh;"></span> Internship</a>
+						</div>	
+					</div>
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="btech.php"><span><img src="img/blinking.gif" style="height: 2.8vh;"></span> Btech/BE</a>
+						</div>	
+					</div>
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="2022.php"><span><img src="img/blinking.gif" style="height: 2.8vh;"></span> 2022</a>
+						</div>	
+					</div>					
+				</div>
+				<br>
+				<div class="row justify-content-center">
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="fresher.php"><span><img src="img/blinking.gif" style="height: 2.8vh;"></span> Freshers</a>
+						</div>	
+					</div>
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="mtech.php"><span><img src="img/blinking.gif" style="height: 2.8vh;"></span> Mtech</a>
+						</div>	
+					</div>
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="2021.php"><span><img src="img/blinking.gif" style="height: 2.8vh;"></span> 2021</a>
+						</div>	
+					</div>					
+				</div>
+				<br>
+				<div class="row justify-content-center">
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							
+							<a href="jobs.php"><span><img src="img/blinking.gif" style="height: 2.8vh;"></span> Offcampus</a>
+							
+						</div>	
+					</div>
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="mca.php"><span><img src="img/blinking.gif" style="height: 2.8vh;"> MCA</a>
+						</div>	
+					</div>
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="pum.html"><span><img src="img/blinking.gif" style="height: 2.8vh;"> Contest</a>
+						</div>	
+					</div>					
+				</div>
+				<br>
+				<div class="row justify-content-center">
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="experience.php" target='_blank'><span><img src="img/blinking.gif" style="height: 2.8vh;"> Experience</a>
+						</div>	
+					</div>
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="bca.php"><span><img src="img/blinking.gif" style="height: 2.8vh;"> BCA</a>
+						</div>	
+					</div>
+					<div class="col-md-3 ">
+						<div class="col-md-12 box">
+							<a href="pum.html"><span><img src="img/blinking.gif" style="height: 2.8vh;"> Challenges</a>
+						</div>	
+					</div>					
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid social">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="pum.html">
+						<div class="row ">
+							<div class="col-md-3 my-1">
+								<img src="img/whatsapp.png" style="height:10vh;">
+							</div>
+							<div class="col-md-9 my-2">
+								<p>Join Whatsapp group for instant update	</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="https://www.youtube.com/channel/UCCewX3B2QhJUP4GdBqcPkpg" target="_blank">
+						<div class="row ">
+							<div class="col-md-3 my-1">
+								<img src="img/youtube.png" style="height:10vh; padding: 3px; ">
+							</div>
+							<div class="col-md-9 my-2">
+								<p>Checkout Our Channel For Placement Guidance</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="https://t.me/Instant_Job_Updates" target="_blank">
+						<div class="row ">
+							<div class="col-md-3 my-1">
+								<img src="img/tel.png" style="height:10vh; padding: 3px;">
+							</div>
+							<div class="col-md-9 my-2">
+								<p>Joined Telegram group for job update	</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="https://www.instagram.com/offcampus_opportunity/" target="_blank">
+						<div class="row ">
+							<div class="col-md-3 my-1">
+								<img src="img/insta.png" style="height:10vh; padding:3px;">
+							</div>
+							<div class="col-md-9 my-2">
+								<p> Ask your query in our instagram handel	</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</body>
+<?php include 'footer.php'; ?>

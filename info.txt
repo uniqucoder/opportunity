@@ -1,0 +1,16 @@
+background - primary : #EDC7B7
+background - secondary: #EEE2DC
+
+primary- color(heading) :#AC3B61
+secondary- head : #123C69
+
+
+Dark mode Colors
+
+background: #15202B
+card : #192734
+hover color : #22303C
+primary text : #FFFFF
+secondary text : 8899A6
+
+
